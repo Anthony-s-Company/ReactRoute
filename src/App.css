@@ -40,3 +40,15 @@
 .read-the-docs {
   color: #888;
 }
+
+.card-header-blue{
+  color: blue;
+}
+
+.card-header-red{
+  color: red;
+}
+
+.card-header-home{
+  color: black;
+}
