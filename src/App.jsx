@@ -37,13 +37,19 @@ export default function App() {
           <MDBCollapse show={showNavColor} navbar>
             <MDBNavbarNav className='me-auto mb-2 mb-lg-0'>
               <MDBNavbarItem>
-                <MDBNavbarLink href='/'>Home</MDBNavbarLink>
+                <MDBNavbarLink >
+                  <Link className='nav-item' to='/'>Home</Link>
+                </MDBNavbarLink>
               </MDBNavbarItem>
               <MDBNavbarItem>
-                <MDBNavbarLink href='/blue'>Blue</MDBNavbarLink>
+                <MDBNavbarLink>
+                  <Link className='nav-item' to='/blue'>Blue</Link>
+                </MDBNavbarLink>
               </MDBNavbarItem>
               <MDBNavbarItem>
-                <MDBNavbarLink href='/red'>Red</MDBNavbarLink>
+                <MDBNavbarLink>
+                  <Link className='nav-item' to='/red '>Red</Link>
+                </MDBNavbarLink>
               </MDBNavbarItem>
             </MDBNavbarNav>
           </MDBCollapse>
